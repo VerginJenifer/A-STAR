@@ -172,7 +172,7 @@ def get_neighbors(v):
 def heuristic(n):
     return H_dist[n]
           
-'''Graph_nodes = {
+Graph_nodes = {
     'A': [('B', 6), ('F', 3)],
     'B': [('A', 6), ('C', 3), ('D', 2)],
     'C': [('B', 3), ('D', 1), ('E', 5)],
@@ -229,5 +229,7 @@ G 0 <br>
 <h2>Sample Output</h2>
 <hr>
 Path found: ['A', 'E', 'D', 'G']
+
+
 <H3>Result:</H3>
 <p>Implementing A * Search algorithm for a Graph using Python 3. is executed successfully.</p>
